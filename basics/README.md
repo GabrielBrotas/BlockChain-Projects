@@ -43,8 +43,9 @@ Ou seja, qualquer alteração depois da assinatura digital precisa ser necessari
 - EtherScan→ track a wallet id
 - Remix IDE - run solidity code
 - ETH Gas Station →
+![image](https://user-images.githubusercontent.com/63565773/138577238-9861a10e-44b8-4052-929d-24aa1f42a668.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b1dc6199-5d86-4eb0-9406-3011a6890d93/Untitled.png)
+
 
 If you want to get your transaction in right away it will cost 2 gas, in the standard 2 gas and on, on..
 
@@ -65,12 +66,11 @@ because the blockchain needs to priorize the transactions
 ## Signature
 
 Public keys is derived from our private key. Anyone can 'see' it, and use it to verify that a transaction came from you.
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a424c2e1-88d4-4ff1-bb1d-7edb92ee8ac6/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577245-31e2b020-6b86-4d57-80f0-ca081885d34d.png)
 
 in this situation I made a transaction for someone else and signed with my private key, after the transaction be completed it will generate a signature
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2313d676-4ac8-4962-a7fb-7f5b6f18ad6b/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577255-eaab818e-0615-4c07-8c5e-4c263e8c3527.png)
 
 and we can check if the date send is true with it
 
@@ -130,8 +130,7 @@ contract SimpleStorage {
     }
 }
 ```
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d543cf46-fc58-4baa-897e-1a97d4b42b7a/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577262-71217921-3a1b-4219-af24-9b213cadd25b.png)
 
 in this case after complie and deploy our contract we can interact with it in this section
 
@@ -217,11 +216,11 @@ contract SimpleStorage {
 
 result:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0643b11d-6d35-4173-9819-abc347e9b49b/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577268-d03d6d29-3827-4a48-9f80-f9d86cbe8445.png)
 
 ## Testing in a account
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ad6ea28-c962-4e11-a80e-8d50e836ebcb/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577273-9e3edc5e-02e2-47f8-9320-6920f65d8157.png)
 
 1 - Choose the Injected Web3, 
 
@@ -235,15 +234,14 @@ it will cost a fee
 
   
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcc483e1-4c07-4f7b-9cd9-e4a3a1e8a7e1/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577278-88978651-3f70-421e-b79e-cc250995ebc9.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5781879d-9307-4800-9fba-8e72a15dcc9e/Untitled.png)
-
+![image](https://user-images.githubusercontent.com/63565773/138577281-26b0e99a-cc55-4c59-9f0e-a7a9e335c1a9.png)
 if we run this in a dev blockchain like kovan network or rinkeby it will show a link ro redirect to this contract in etherscan
 
 Functions that read a state does not cost anythin but one that changes the state we need to pay a fee
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36537bf5-1f0e-4824-af61-d62036a26563/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577285-024904d2-a97e-44db-b0ba-46f9f27e01f9.png)
 
 ## Storage Factory
 
@@ -272,10 +270,10 @@ we import a solidy contract and now we can create multiple instances with this f
 
 ex:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3eefec0-011b-4ef8-9dd3-ce2138e59544/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577289-cbe86239-f755-4cf4-972d-9bb243691208.png)
 
 the address generated is the generated address contract
 
 Accessing generated contracts data:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58f92f04-fac7-4a64-8d75-d64f1265a20a/Untitled.png)
+![image](https://user-images.githubusercontent.com/63565773/138577292-85f00ef1-d45b-446d-9c7c-43315b042314.png)
