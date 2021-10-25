@@ -1,0 +1,6 @@
+# tell brownie, when run a script load this use this .env file
+dotenv: .env
+wallets: 
+  # export this variable from_key with the .env PRIVATE_KEY value
+  from_key: ${PRIVATE_KEY}
+  
